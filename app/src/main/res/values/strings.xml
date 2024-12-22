@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Last Ass.</string>
+
+    <!-- Daftar judul artikel -->
+    <string-array name="article_titles">
+        <item>Heri Dahlah</item>
+        <item>Herman Sigi Saga</item>
+        <item>Surya Chewing Gum</item>
+        <item>Berty est Dark Candy</item>
+        <item>Georgia Axis</item>
+        <item>Masheri Ramtiga</item>
+        <item>Amir Bernadya</item>
+        <item>Om Teguh</item>
+        <item>Kadal Bawah Tangga</item>
+    </string-array>
+
+    <!-- Daftar overview artikel -->
+    <string-array name="article_overviews">
+        <item>"Jadilah inovator tangguh yang mampu menghadapi setiap tantangan, karena di balik setiap masalah ada solusi yang menanti ditemukan."</item>
+        <item>"Kuatkan dirimu untuk menjadi pemimpin atas hidupmu sendiri. Keberhasilan dimulai dari keberanian untuk memimpin langkah pertama."</item>
+        <item>"Dunia ini keras, tetapi semangatmu untuk menjaga kebaikan adalah kekuatan yang mampu mengubah segalanya."</item>
+        <item>"Seni kehidupan adalah bertahan dalam badai dan tetap menciptakan keindahan meski di tengah keterpurukan."</item>
+        <item>"Pemimpin sejati lahir dari kegigihan untuk tetap maju, meski dunia berusaha menjatuhkan."</item>
+        <item>"Pendidikan adalah senjata paling ampuh untuk menghadapi kerasnya hidup. Jadilah pelajar tangguh yang tak gentar akan rintangan."</item>
+        <item>"Kemenangan sejati bukan hanya soal medali, tetapi keberanian untuk terus berjuang melampaui batas dirimu sendiri."</item>
+        <item>"Inovasi lahir dari ketangguhan hati. Jadilah agen perubahan yang tidak takut menghadapi kejamnya dunia bisnis."</item>
+        <item>"Jangan biarkan dunia membentukmu. Bentuklah dunia dengan ide-ide dan semangat tak tergoyahkan yang ada dalam dirimu."</item>
+    </string-array>
+
+
+</resources>

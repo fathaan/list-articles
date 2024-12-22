@@ -1,0 +1,61 @@
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="5dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/overlayprimary" />
+
+        <!-- Background Blur -->
+        <ImageView
+            android:id="@+id/background_blur"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wpitem"
+            android:alpha="0.2" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/heri_dahlah"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/vg"
+                android:text="Heri Dahlah"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:paddingTop="8dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:letterSpacing="0.1" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+</androidx.cardview.widget.CardView>
